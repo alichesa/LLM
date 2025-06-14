@@ -21,8 +21,7 @@ system_prompt = {"role": "system", "content": "你是一个专业的中文育儿
 ```
 
 - 定义一个简单的历史记录系统，将QA都转换为json存储
-![Pasted image 20250614172038](https://github.com/user-attachments/assets/2324ab57-0f86-42b7-9b6f-448cece591af)
-
+![Pasted image 20250614172203](https://github.com/user-attachments/assets/fbad3dfb-8318-4f9e-8a3a-a6bc54d2c9f2)
 
 - 利用大模型生成RAG库，将LLM链接好RAG进行综合输入
 ```
