@@ -12,7 +12,8 @@ LLM：(https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat/tree/main)
 
 # 功能
 - 利用轻量级Web应用框架Flask构建HTTP服务器聊天路由，并利用Post进行传递
-  ![[Pasted image 20250614172038.png]]
+![Pasted image 20250614172038](https://github.com/user-attachments/assets/e55f34ed-3718-48dd-92f7-ab0327f6621a)
+
 
 - 用一个简单的prompt进行约束，使其初始化自己的身份
 ```
@@ -20,7 +21,8 @@ system_prompt = {"role": "system", "content": "你是一个专业的中文育儿
 ```
 
 - 定义一个简单的历史记录系统，将QA都转换为json存储
-  ![[Pasted image 20250614172203.png]]
+![Pasted image 20250614172038](https://github.com/user-attachments/assets/2324ab57-0f86-42b7-9b6f-448cece591af)
+
 
 - 利用大模型生成RAG库，将LLM链接好RAG进行综合输入
 ```
